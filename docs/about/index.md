@@ -1,0 +1,2 @@
+Jefferson Lab Research Database (JRDB) aims for providing single place to search all JLab research documents. It is built upon [InvenioRDM](https://inveniordm.docs.cern.ch/) , a turn key research data management software.
+Currently we index two Jlab database namely [Publication database](https://misportal.jlab.org/sti/publications/search) and [PAC database](https://misportal.jlab.org/pacProposals/proposals).

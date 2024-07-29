@@ -1,0 +1,57 @@
+site_name: "JLab Research Database Docs"
+
+repo_url: "https://github.com/JeffersonLab/invenioRDM-docs"
+# Configuration
+theme:
+  name: material
+  custom_dir: 'theme/'
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      extra_css:
+        - stylesheets/extra.css
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: orange
+      toggle:
+        accent: orange
+        icon: material/brightness-4
+        name: Switch to light mode
+  font: false
+  features:
+    - navigation.tabs
+    - navigation.footer
+    - content.code.copy
+
+# Customization
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/JeffersonLab/invenioRDM-docs
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Home: "index.md"
+  - About: "about/index.md"
+  - Search-Guide: "search-guide/index.md"
+  
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.critic
+
+  - toc:
+      permalink: true
