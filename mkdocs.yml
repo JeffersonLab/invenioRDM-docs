@@ -42,7 +42,15 @@ extra_css:
 nav:
   - Home: "index.md"
   - About: "about/index.md"
-  - Search-Guide: "search-guide/index.md"
+  - User Docs: 
+    - Overview: "user-docs/index.md"
+    - Get Started: "user-docs/get-started/get-started.md"
+    - Search Guide: "user-docs/search-guide/search-guide.md"
+  - Contact: "contact/index.md"
+
+  - Infrastructure: 
+    - Overview: "infrastructure/index.md"
+    - JLab Deployment: "infrastructure/deployment/deployment.md"
   
 
 # Extensions
