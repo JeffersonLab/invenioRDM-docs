@@ -1,5 +1,5 @@
 The detail explanation of infrastructure architecture of InvenioRDM is available [here](https://inveniordm.docs.cern.ch/develop/architecture/infrastructure/). </br>
-Jefferson Lab instance architecture choice is shown if figure below:
+Jefferson Lab instance architecture choice is shown below:
 
 ![JLab Instance Architecture](../images/jlab-architecture.png)
 
