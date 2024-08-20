@@ -23,6 +23,8 @@ Results will match records with the term open in the field metadata.title. If yo
 
 Example: [<span style="color:#D13B1A;">metadata.title:(open science)</span>](https://jrdb.jlab.org/search?q=metadata.title%3A%28open%20science%29&l=list&p=1&s=10&sort=bestmatch)
 
+see [**Metadata List**](../../metadata/index.md) for the full list of fields you can search.
+
 ## Combined simple, phrase or field search
 Example: 
 [<span style="color:#D13B1A;">+metadata.title:"open science" -metadata.title:policy</span>](https://jrdb.jlab.org/search?q=%2Bmetadata.title%3A%22open%20science%22%20-metadata.title%3Apolicy&l=list&p=1&s=10&sort=bestmatch) 
