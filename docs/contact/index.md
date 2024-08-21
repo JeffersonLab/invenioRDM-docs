@@ -7,7 +7,7 @@
 
 3. [Search Guide](../user-docs/search-guide/search-guide.md) 
 
-4. [Metadata](../metadata/index.md)
+4. [Metadata](../user-docs/metadata/index.md)
 
 
 # Contact us

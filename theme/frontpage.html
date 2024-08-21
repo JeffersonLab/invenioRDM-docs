@@ -73,10 +73,11 @@
   <div class="rdm-hero md-typeset">
     <img src="images/JLab_logo.svg" />
     <div class="rdm-hero-subtitle">
-        Jefferson Lab Research Database
+      <br>
+
     </div>
     <a href="user-docs/search-guide/search-guide/" class="md-button md-button--primary">Search Guide</a>
-    <a href="https://jrdb.jlab.org" class="md-button">Site</a>
+    <a href="https://jrdb.jlab.org" class="md-button ">JLab Research DB</a>
   </div>
 </section>
 {% endblock %}
@@ -90,13 +91,4 @@
 {% include "partials/actions.html" %}
 {{ page.content }}
 {% include "partials/source-file.html" %}
-<ul class="rdm-toc">
-  {% for nav_item in nav %}
-    {%- if nav_item.title != "Home" %}
-      {%- set path = "__nav_" ~ loop.index %}
-      {%- set level = 1 %}
-      {{ render(nav_item, path, level) }}
-    {%- endif %}
-  {% endfor %}
-</ul>
 {% endblock %}
