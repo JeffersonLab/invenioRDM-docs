@@ -2,7 +2,7 @@ The current instance we have all the record as open access. Thus you don't need 
 No signup option is available for now (even though you see signup option in UI, it doesn't work.)
 We will soon plan to integrate federated login with CILOGON stay tuned.
 
-Once you got to the URL: [https://jrdb.jlab.org](https://jrdb.jlab.org), you will land on the landing page as shown below:
+Once you go to the URL: [https://jrdb.jlab.org](https://jrdb.jlab.org), you will land on the landing page as shown below:
 
 ![Landing Page](../../images/landing_page.png)
 
