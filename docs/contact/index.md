@@ -12,7 +12,7 @@
 
 # Contact us
 
-!!! info "Send email to [helpdesk@jlab.org](mailto:helpdesk@jlab.org)"
+!!! info "Send email to [jrdb@jlab.org](mailto:jrdb@jlab.org)"
     When contacting us, please provide the following details:
     
     - A clear and detailed description of your query.
